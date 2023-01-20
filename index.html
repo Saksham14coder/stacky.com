@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacky</title>
+
+    <style>
+         
+        body{
+            background-color: black;
+            background-image: url("blackwhite.jpg");
+        }
+        .logo{
+            color: white;
+            font-size: 48px;
+            font-style: italic;
+            margin: 10px;
+            font-weight: bold;
+             
+        }
+        .logo:hover{
+            color:  rgb(116, 54, 103);
+        }
+        nav{
+            display: flex;
+        }
+        header nav ul a{
+            text-decoration: none;
+            color: white;
+            font-size: large;
+            margin: 10px;
+            text-align: center;
+            
+        }
+        header nav ul  input{
+            text-decoration: none;
+            color: black;
+              border-radius: 15px;
+            margin: 10px;
+            text-align: center;
+            width: 200px;
+            height: 25px;
+            
+        }
+        header nav ul a img{
+            width: 21px;
+            height: 21px;
+            
+        }
+
+        .login{
+            color: white;
+            text-align: center;
+            padding: 100px;
+            font-size: 15px;
+            justify-content: center;
+            justify-items: center;    
+              
+             
+        }
+        .login a:hover{
+            color: rgb(247, 167, 229);
+        }
+        .login a{
+            color: white;
+            text-align: center;
+            padding: 100px;
+            font-size: 50px;
+            text-decoration: none;
+            
+        }
+
+        
+        
+        .detail{
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 10px;
+        }
+        .foot p{
+            color: white;
+            text-align: center;
+             
+            margin: 10px;
+             
+        }
+
+
+
+
+        @media only screen and (max-width: 500px ){
+            .logo{
+                text-align: center;
+            }
+            nav{
+            display: block;
+        }
+        header nav ul {
+            text-align: center;
+        }
+            header nav ul a{
+            text-decoration: none;
+            color: white;
+            
+            margin: 15px;
+            text-align: center;
+            
+        }
+        header nav ul a input{
+            text-decoration: none;
+            color: white;
+           
+            margin: 15px;
+            text-align: center;
+            width: 170px;
+            height: 20px;
+            
+        }
+        .detail h1{
+            font-size: 26px;     
+            text-align: center; 
+        }
+        .detail p{
+            text-align: center;
+        }
+         
+        }
+    </style>
+</head>
+<body >
+    <header>
+        <nav>
+            <div class="logo">
+                Stacky
+            </div>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Apps.html">Apps</a>
+                 <input type="text" placeholder="Search..">
+                <a href="index.html"><img src="avatar.png" alt="" ></a>
+            </ul>
+        </nav>
+    </header>
+
+     <div> 
+       <div startimg>
+              <div class="login">
+                <a href="Login.html">Login</a>
+                <h1>or</h1>
+                <a href="signin.html">SignUp</a>
+
+              </div>
+
+               
+       </div>
+
+       <div class="detail">
+            <h1>__.__Steps of Success __.__</h1>
+            <p>1.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, corrupti. Minus, iusto aspernatur quod maiores ad vero commodi eligendi iste ipsum. Praesentium consectetur saepe itaque aliquid ducimus repellat similique neque?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quod non consectetur ad soluta enim, eum pariatur iure deserunt! Saepe incidunt distinctio voluptas ratione praesentium? Cupiditate deserunt in delectus reprehenderit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt temporibus repudiandae, reiciendis, libero facere quos ratione cumque laudantium deleniti molestias quas illo eveniet deserunt ipsam dicta labore excepturi eum autem.
+            </p>
+            <p>2.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, corrupti. Minus, iusto aspernatur quod maiores ad vero commodi eligendi iste ipsum. Praesentium consectetur saepe itaque aliquid ducimus repellat similique neque?
+                 adipisicing elit. Incidunt temporibus repudiandae, reiciendis, libero facere quos ratione cumque laudantium deleniti molestias quas illo eveniet deserunt ipsam dicta labore excepturi eum autem.
+            </p>
+            <p>2.  Lorem, ipsum dolor sit amet consectetur adipisicing  Incidunt temporibus repudiandae, reiciendis, libero facere quos ratione cumque laudantium deleniti molestias quas illo eveniet deserunt ipsam dicta labore excepturi eum autem.
+            </p>
+            <h1>__Stacky</h1>
+       </div>
+     </div>
+    
+
+
+    <footer class="foot">
+        <p>@copyright stacky.com</p>
+    </footer>
+</body>
+</html>
